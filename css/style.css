@@ -226,7 +226,6 @@ img {
    width: 100%;
    background-color: rgba(255, 255, 255, 0.29);
    display: flex;
-   align-items: center;
    padding: 10px 39px 10px 32px;
    border-radius: 6px;
    margin-top: 90px;
@@ -241,4 +240,79 @@ img {
    max-width: 136px;
    width: 100%;
    margin-left: 11px;
+}
+
+
+.main__content-about {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 340px;
+   margin-top: 80px;
+}
+
+.main__content-img {
+   border-radius: 6px;
+}
+
+.main__content-info {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   column-gap: 141px;
+}
+
+.main__left-title {
+   font-weight: 800;
+   font-size: 32px;
+   line-height: 44px;
+   color: var(--main-color);
+   margin-bottom: 23px;
+}
+
+.main__left-text {
+   font-size: 16px;
+   line-height: 32px;
+   font-weight: 300;
+}
+
+.main__left-text span {
+   font-size: 16px;
+   font-weight: 600;
+}
+
+.main__right-text {
+   font-size: 16px;
+   line-height: 32px;
+   font-weight: 300;
+}
+
+.main__right-text span {
+   font-size: 16px;
+   font-weight: 600;
+}
+
+.main__content-borders {
+   display: flex;
+   align-items: center;
+   margin-top: 70px;
+}
+
+.main__borders-title {
+   font-size: 16px;
+   line-height: 24px;
+   font-weight: 600;
+   margin-right: 15px;
+}
+
+.main__borders-link {
+   display: inline-block;
+   color: var(--main-color);
+   padding: 5px 28px;
+   font-size: 14px;
+   line-height: 19px;
+   font-weight: 300;
+   /* TODO box shadow is not working properly */
+   box-shadow: rgba(0, 0, 0, 0.1);
+   border: 1px solid #8a8787;
 }

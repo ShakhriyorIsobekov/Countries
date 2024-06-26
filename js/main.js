@@ -7,3 +7,8 @@ darkMode.addEventListener("click", function() {
 // lightMode.addEventListener("click", function() {
 //    document.body.classList.remove('dark__mode')
 // })
+
+const darkModeAbout = document.querySelector("header__content-btn");
+darkModeAbout.addEventListener("click", function() {
+   document.body.classList.add('dark__mode');
+})
