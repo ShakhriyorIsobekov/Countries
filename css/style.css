@@ -126,10 +126,16 @@ img {
    display: flex;
    justify-content: space-between;
    align-items: center;
+   position: relative;
+}
+
+.main__form-search-icon {
+   position: absolute;
+   left: 32px;
 }
 
 .main__form-search {
-   padding: 19px 10px 19px 32px;
+   padding: 19px 10px 19px 60px;
    max-width: 480px;
    width: 100%;
    height: 56px;
